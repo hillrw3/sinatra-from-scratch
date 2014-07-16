@@ -1,0 +1,34 @@
+#registration_button {
+    width: 100%;
+    height: 150px;
+    font-size: 2em;
+    margin-top: 25px;
+}
+#login {
+    width: 100%;
+    height: 50px;
+    font-size: 2em;
+    margin-top: 25px;
+}
+
+#wrapper {
+    width: 620px;
+    margin: auto;
+}
+
+.centered {
+    width: 100%;
+    text-align: center;
+}
+
+#registration {
+    margin-top: 20px;
+}
+
+.green {
+    color: limegreen;
+}
+
+.error {
+    color:red;
+}
