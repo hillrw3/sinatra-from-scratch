@@ -3,9 +3,11 @@
 <form id="to_register" action="/register" method="get">
   <button id="registration_button">Register</button>
 </form>
+
 <div class="centered">
   <h3>OR</h3>
 </div>
+
 <form action="/login" method="post">
   <dl>
     <dt><label for="username">Email:</label></dt>
@@ -14,4 +16,12 @@
     <dd><input type="password" id="password" name="password"></dd>
   </dl>
   <button id="login">Login</button>
+</form>
+
+<div class="centered">
+  <h3>OR</h3>
+</div>
+
+<form method="get" action="/database">
+  <button id="login">See who's already signed up!</button>
 </form>

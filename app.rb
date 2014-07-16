@@ -37,4 +37,8 @@ class App < Sinatra::Application
     redirect back
   end
 
+  get '/database' do
+    erb :database
+  end
+
 end
